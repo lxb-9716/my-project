@@ -1,0 +1,36 @@
+0 info it worked if it ends with ok
+1 verbose cli [
+1 verbose cli   'D:\\java\\javaDevelopment\\nodejs\\node.exe',
+1 verbose cli   'D:\\java\\javaDevelopment\\nodejs\\node_global\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'run',
+1 verbose cli   'dev'
+1 verbose cli ]
+2 info using npm@3.8.6
+3 info using node@v14.16.1
+4 verbose stack Error: Failed to parse json
+4 verbose stack Unexpected token ':' at 1:10
+4 verbose stack "scripts": {
+4 verbose stack          ^
+4 verbose stack     at parseError (D:\java\javaDevelopment\nodejs\node_global\node_modules\npm\node_modules\read-package-json\read-json.js:379:11)
+4 verbose stack     at parseJson (D:\java\javaDevelopment\nodejs\node_global\node_modules\npm\node_modules\read-package-json\read-json.js:68:23)
+4 verbose stack     at D:\java\javaDevelopment\nodejs\node_global\node_modules\npm\node_modules\read-package-json\read-json.js:48:5
+4 verbose stack     at D:\java\javaDevelopment\nodejs\node_global\node_modules\npm\node_modules\graceful-fs\graceful-fs.js:78:16
+4 verbose stack     at FSReqCallback.readFileAfterClose [as oncomplete] (internal/fs/read_file_context.js:63:3)
+5 verbose cwd D:\java\workPlace\ideaWorkPlace\xc\xc-ui\xc-ui-pc-static-portal\webpack_model
+6 error Windows_NT 10.0.18363
+7 error argv "D:\\java\\javaDevelopment\\nodejs\\node.exe" "D:\\java\\javaDevelopment\\nodejs\\node_global\\node_modules\\npm\\bin\\npm-cli.js" "run" "dev"
+8 error node v14.16.1
+9 error npm  v3.8.6
+10 error file D:\java\workPlace\ideaWorkPlace\xc\xc-ui\xc-ui-pc-static-portal\webpack_model\package.json
+11 error code EJSONPARSE
+12 error Failed to parse json
+12 error Unexpected token ':' at 1:10
+12 error "scripts": {
+12 error          ^
+13 error File: D:\java\workPlace\ideaWorkPlace\xc\xc-ui\xc-ui-pc-static-portal\webpack_model\package.json
+14 error Failed to parse package.json data.
+14 error package.json must be actual JSON, not just JavaScript.
+14 error
+14 error This is not a bug in npm.
+14 error Tell the package author to fix their package.json file. JSON.parse
+15 verbose exit [ 1, true ]

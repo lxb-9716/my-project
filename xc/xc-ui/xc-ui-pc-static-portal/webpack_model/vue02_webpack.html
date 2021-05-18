@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:v-on="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="UTF-8">
+    <title>vue基本使用</title>
+</head>
+<body>
+<!--MVVM模式中的view视图部分-->
+<div id="app">
+    <span v-text="name"></span>
+    <span></span>
+    <br>
+    <!--vue的基本使用
+    v-model：可以实现数据的双向绑定，但是只能在特定的标签中才能使用
+    v-bind：可以在任意标签中进行绑定，但是只能单向从数据模型绑定到dom
+    v-text：可以解决闪烁的问题
+    v-on：监听用户事件
+    v-for:循环遍历
+    v-if:条件判断
+    -->
+    <input type="text" v-model="num1"> *
+    <input type="text" v-model="num2"> =
+    <span v-text="result"></span>
+    <!--{{Number.parseInt(num1)+Number.parseInt(num2)}} --><input type="button" value="计算" v-on:click="aaa">
+
+    <ui>
+        <!--item：循环的变量名，index：索引-->
+        <li v-for="(item,index) in list" :key="index" v-if="index % 2 ==0">{{index}}-----{{item}}</li>
+        <!--v-for标签遍历java json对象数据-->
+        <li v-for="(value,key) in user" :key="key">{{key}}-----{{value}}</li>
+    </ui>
+</div>
+</body>
+</html>
