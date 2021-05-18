@@ -1,14 +1,17 @@
 /*引入vue页面*/
 import Home from '@/module/home/page/home.vue';
 
+/*引入cmsPage相关页面*/
 import page_list from '@/module/cms/page/page_list.vue';
 import page_add from '@/module/cms/page/page_add.vue';
 import page_edit from '@/module/cms/page/page_edit.vue';
 
+/*引入cmsTemplate相关页面*/
 import template_list from '@/module/cms/page/template_list.vue';
 import template_add from '@/module/cms/page/template_add.vue';
 import template_edit from '@/module/cms/page/template_edit.vue';
 
+/*引入cmsSite相关页面*/
 import site_list from '@/module/cms/page/site_list.vue';
 import site_add from '@/module/cms/page/site_add.vue';
 import site_edit from '@/module/cms/page/site_edit.vue';
