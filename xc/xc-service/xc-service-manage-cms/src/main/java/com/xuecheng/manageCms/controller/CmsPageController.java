@@ -39,7 +39,7 @@ public class CmsPageController implements CmsPageControllerApi {
     }
 
     /**
-     * 查询站点列表信息
+     * 查询页面站点列表信息
      *
      * @return
      */
